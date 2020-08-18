@@ -1,11 +1,35 @@
+.Container  {
+    margin: 15px;
+}
+
+
 .Wrapper {
     min-height: 100px;
     display: flex;
     flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    flex: 50%;
  }
+
+.Row  {
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+
+.Image  {
+    height: 250px;
+    width: 250px;
+}
 
 Small {
     color: red;
+}
+
+p  {
+    font-size: 1.3em;
 }
 /* this code was pulled from
 https://www.w3schools.com/howto/howto_css_loader.asp */
